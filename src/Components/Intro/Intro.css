@@ -1,0 +1,85 @@
+img {
+  width: 100%;
+}
+
+section.container {
+  padding: 2em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.img {
+  position: relative;
+}
+
+.header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2em;
+}
+
+.header > * {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.content {
+  max-width: 600px;
+  z-index: 1;
+}
+
+.content h1 {
+  width: 100%;
+  font-size: 1.8rem;
+  margin: auto;
+  color: #fff;
+}
+
+.content P {
+  line-height: 1.6;
+  color: #e9e6e6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.856em 2em;
+  background-color: #f7f7f7;
+  color: #c90792;
+  border-radius: 1em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: auto 0;
+}
+
+.btn:hover {
+  background-color: #c90792;
+  color: #fff;
+}
+
+section.container .points {
+  opacity: 0.4;
+  position: absolute;
+}
+
+section.container .point2 {
+  max-width: 40%;
+  z-index: -10;
+  top: 55%;
+  left: 65%;
+  bottom: 0;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+/*# sourceMappingURL=Intro.css.map */
